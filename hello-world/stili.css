@@ -1,0 +1,15 @@
+p {
+    color: green;
+}
+
+.mia-classe {
+    color: green;
+    text-decoration: underline;
+}
+.contenitore {
+    border: solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+
+}

@@ -23,6 +23,17 @@ import('HelloWorldApp/Esponi')
     esponi.render();
 })
 
+import('html/html')
+.then(pippo => {
+    const HtmlDaEsporre = pippo.default
+    console.log(HtmlDaEsporre);
+    var container = document.createElement('div');
+    container.innerHTML = HtmlDaEsporre;
+    document.body.appendChild(container)
+  
+})
+
+
 
 
 

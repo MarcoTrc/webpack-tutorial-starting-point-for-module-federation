@@ -75,6 +75,7 @@ module.exports = {
             name: 'KiwiApp',
             remotes: {
                 HelloWorldApp: 'HelloWorldApp@http://localhost:9001/remoteEntry.js',
+                html: 'html:@http://localhost:9003/remoteEntry.js'
             }
             
         })
